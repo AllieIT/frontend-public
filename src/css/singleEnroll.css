@@ -1,0 +1,45 @@
+.singleEnroll_name {
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+
+.singleEnroll_container {
+    padding: 15px;
+    background-color: #b1cccc;
+    margin: 10px 0;
+}
+
+.singleEnroll_actionContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.singleEnroll_button {
+    border: none;
+    margin: 25px 10px 10px 10px;
+    padding: 10px;
+}
+
+#singleEnroll_enrollButton {
+    position: absolute;
+    right: 0;
+    transform: translateX(-350%);
+}
+
+#singleEnroll_enrollButton:hover:enabled {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#singleEnroll_deleteButton {
+
+    position: absolute;
+    right: 0;
+    transform: translateX(-120%);
+}
+
+#singleEnroll_deleteButton:hover:enabled {
+    background-color: #fff;
+    cursor: pointer;
+}

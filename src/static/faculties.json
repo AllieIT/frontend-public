@@ -1,0 +1,66 @@
+[
+  {
+    "label": "EAIIB",
+    "value": "EAIIB"
+  },
+  {
+    "label": "IMiR",
+    "value": "IMiR"
+  },
+  {
+    "label": "ILGZ",
+    "value": "ILGZ"
+  },
+  {
+    "label": "IMiP",
+    "value": "IMiP"
+  },
+  {
+    "label": "IET",
+    "value": "IET"
+  },
+  {
+    "label": "GGiOS",
+    "value": "GGiOS"
+  },
+  {
+    "label": "GGIS",
+    "value": "GGIS"
+  },
+  {
+    "label": "IMIC",
+    "value": "IMIC"
+  },
+  {
+    "label": "Odlew",
+    "value": "Odlew"
+  },
+  {
+    "label": "MN",
+    "value": "MN"
+  },
+  {
+    "label": "WNiG",
+    "value": "WNiG"
+  },
+  {
+    "label": "Zarz",
+    "value": "Zarz"
+  },
+  {
+    "label": "EiP",
+    "value": "EiP"
+  },
+  {
+    "label": "FiS",
+    "value": "FiS"
+  },
+  {
+    "label": "MS",
+    "value": "MS"
+  },
+  {
+    "label": "Hum",
+    "value": "Hum"
+  }
+]

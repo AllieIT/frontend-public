@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(132deg, #22c7bd, #012e0d);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 30s ease infinite;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+}
+
+@keyframes BackgroundGradient {
+  0% {background-position: 0 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0 50%;}
+}
+
+#root {
+  width: 100%;
+}
+
+.NoDecor {
+  text-decoration: none;
+  color: black;
+}

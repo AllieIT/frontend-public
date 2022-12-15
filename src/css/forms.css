@@ -1,0 +1,59 @@
+.CentralFormWrapper {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+
+    margin: 10px 0;
+    width: 15vw;
+    padding: 10px;
+    color: black;
+    box-sizing: border-box;
+}
+
+.HorizontalFlexContainer {
+    display: flex;
+    border-radius: 10px;
+}
+
+.InputContainer {
+    margin: 20px;
+}
+
+.SubmitButton {
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.SubmitButton:hover {
+    background-color: #ccc;
+}
+
+#submitContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.SelectContainer {
+    margin: 20px;
+}
+
+select {
+    font-family: 'Lato', sans-serif;
+    margin: 10px 0;
+    width: 15vw;
+    padding: 10px;
+}

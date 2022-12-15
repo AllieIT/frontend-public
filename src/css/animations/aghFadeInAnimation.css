@@ -1,0 +1,36 @@
+#root_aghLogo {
+    position: fixed;
+    width: 30vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+
+    animation: fadeIn ease 2s forwards, move ease 2s forwards;
+    animation-delay: 2s, 4s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@keyframes move {
+    0% {
+        width: 30vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        width: 7vw;
+        top: 20px;
+        left: 20px;
+        transform: translate(0, 0);
+    }
+}

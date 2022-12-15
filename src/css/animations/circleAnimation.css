@@ -1,0 +1,32 @@
+#root_circle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#root_circle {
+    background: white;
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-radius: 100%;
+    z-index: 3;
+
+    animation: expand 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes expand{
+    0% {
+        opacity: 100;
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 300vh;
+        height: 300vh;
+    }
+}
+

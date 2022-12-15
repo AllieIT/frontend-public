@@ -1,0 +1,27 @@
+#enrollPageContainer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#enrollContainer {
+    position: absolute;
+    width: 90vw;
+    padding: 50px;
+    background-color: white;
+}
+
+#enrollContainer h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#enrollContainer h2 {
+    font-size: 30px;
+}
+
+.enroll_dayContainer {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #eee ;
+}

@@ -1,0 +1,59 @@
+#dashboardContainer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#dashboard {
+    position: absolute;
+    width: 90vw;
+    height: 80vh;
+    padding: 50px;
+    background-color: white;
+}
+
+#dashboard h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#dashboard_menu {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.dashboard_MenuOption {
+    background-color: #e0e0e0;
+    line-height: 20px;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 30px;
+}
+
+.dashboard_MenuOption:hover {
+    background-color: #ededed;
+    font-size: 18px;
+}
+
+#dashboard_freeSpace {
+    height: 40vh;
+}
+
+#dashboard_logOutButton {
+    position: relative;
+    cursor: pointer;
+    right: 0;
+    width: 10vw;
+    background-color: #e0e0e0;
+    line-height: 20px;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 30px;
+}
+
+#dashboard_logOutButton:hover {
+    background-color: #ededed;
+    font-size: 18px;
+}

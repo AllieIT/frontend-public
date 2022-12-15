@@ -1,0 +1,74 @@
+#root_topBar {
+    height: 12vh;
+    background-color: white;
+    visibility: hidden;
+}
+
+#root_centralWrapper {
+    position: absolute;
+    left: 0;
+    top: 18vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: wrapperExpand ease 2s forwards;
+    animation-delay: 6s;
+    background-color: #073d3a;
+    z-index: 7;
+}
+
+#root_redirects {
+    opacity: 0;
+    animation: showRedirects 1s forwards;
+    animation-delay: 7s;
+
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    z-index: 8;
+    background-color: white;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.root_redirect {
+    font-size: 22px;
+
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: #073d3a;
+}
+
+.root_redirect a {
+    color: white;
+    text-decoration: none;
+}
+
+.root_redirect a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
+
+@keyframes wrapperExpand{
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 82vh;
+    }
+}
+
+@keyframes showRedirects {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
